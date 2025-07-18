@@ -25,6 +25,13 @@ const adminSchema = mongoose.Schema({
     type: String,
     default: null,
   },
+  User_Followers: [
+    {
+      FollowersId: {
+        type: String,
+      },
+    },
+  ],
   User_Created_At: {
     type: Date,
     default: Date.now,
