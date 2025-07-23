@@ -1,53 +1,6 @@
-2025/07/18-18:06:27.531 1f08 Reusing MANIFEST C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/18-18:06:27.531 1f08 Recovering log #2094
-2025/07/18-18:06:27.536 1f08 Reusing old log C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002094.log 
-2025/07/18-18:06:29.011 34a0 Level-0 table #2109: started
-2025/07/18-18:06:29.015 34a0 Level-0 table #2109: 72796 bytes OK
-2025/07/18-18:06:29.015 34a0 Delete type=0 #2094
-2025/07/18-18:06:29.016 34a0 Manual compaction at level-0 from '\x00\x91\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x92\x00\x00\x00' @ 0 : 0; will stop at '\x00\x91\x00\x00\x05' @ 5226746 : 1
-2025/07/18-18:06:29.016 34a0 Compacting 1@0 + 1@1 files
-2025/07/18-18:06:29.019 34a0 Generated table #2110@0: 1704 keys, 36058 bytes
-2025/07/18-18:06:29.020 34a0 Generated table #2111@0: 179 keys, 7390 bytes
-2025/07/18-18:06:29.020 34a0 Compacted 1@0 + 1@1 files => 43448 bytes
-2025/07/18-18:06:29.021 34a0 compacted to: files[ 0 2 25 0 0 0 0 ]
-2025/07/18-18:06:29.021 34a0 Delete type=2 #2109
-2025/07/18-18:06:29.022 34a0 Manual compaction at level-0 from '\x00\x91\x00\x00\x05' @ 5226746 : 1 .. '\x00\x92\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/18-18:06:31.250 15b4 Compacting 1@1 + 9@2 files
-2025/07/18-18:06:31.384 15b4 Generated table #2112@1: 89634 keys, 2240918 bytes
-2025/07/18-18:06:31.518 15b4 Generated table #2113@1: 96009 keys, 2247456 bytes
-2025/07/18-18:06:31.638 15b4 Generated table #2114@1: 101344 keys, 2254425 bytes
-2025/07/18-18:06:31.751 15b4 Generated table #2115@1: 63270 keys, 2261595 bytes
-2025/07/18-18:06:31.844 15b4 Generated table #2116@1: 36662 keys, 2226052 bytes
-2025/07/18-18:06:31.890 15b4 Generated table #2117@1: 14059 keys, 2162881 bytes
-2025/07/18-18:06:31.913 15b4 Generated table #2118@1: 1164 keys, 2138403 bytes
-2025/07/18-18:06:31.966 15b4 Generated table #2119@1: 24834 keys, 2235887 bytes
-2025/07/18-18:06:31.972 15b4 Generated table #2120@1: 896 keys, 174152 bytes
-2025/07/18-18:06:31.972 15b4 Compacted 1@1 + 9@2 files => 17941769 bytes
-2025/07/18-18:06:31.972 15b4 compacted to: files[ 0 1 25 0 0 0 0 ]
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2097
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2098
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2099
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2100
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2101
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2102
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2103
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2104
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2105
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2106
-2025/07/18-18:06:31.973 15b4 Delete type=2 #2110
-2025/07/18-18:08:42.428 15b4 Compacting 1@1 + 11@2 files
-2025/07/18-18:08:42.501 15b4 Generated table #2121@1: 70495 keys, 1610904 bytes
-2025/07/18-18:08:42.501 15b4 Compacted 1@1 + 11@2 files => 1610904 bytes
-2025/07/18-18:08:42.501 15b4 compacted to: files[ 0 0 15 0 0 0 0 ]
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1380
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1482
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1498
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1514
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1566
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1597
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1614
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1657
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1683
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1878
-2025/07/18-18:08:42.502 15b4 Delete type=2 #1960
-2025/07/18-18:08:42.502 15b4 Delete type=2 #2111
+2025/07/23-18:48:54.181 5b0 Reusing MANIFEST C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/23-18:48:54.191 5b0 Recovering log #2636
+2025/07/23-18:48:54.293 5b0 Reusing old log C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002636.log 
+2025/07/23-18:48:54.294 5b0 Delete type=2 #2634
+2025/07/23-18:48:54.294 5b0 Delete type=2 #2635
+2025/07/23-18:48:54.294 5b0 Delete type=2 #2639
