@@ -1,3 +1,2 @@
-2025/07/23-18:48:53.653 5b0 Reusing MANIFEST C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\Service Worker\Database/MANIFEST-000001
-2025/07/23-18:48:53.666 5b0 Recovering log #3
-2025/07/23-18:48:53.667 5b0 Reusing old log C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\Service Worker\Database/000003.log 
+2025/08/03-09:53:14.357 186b Creating DB /home/pritam-sarkar/Desktop/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/Service Worker/Database since it was missing.
+2025/08/03-09:53:14.361 186b Reusing MANIFEST /home/pritam-sarkar/Desktop/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/Service Worker/Database/MANIFEST-000001

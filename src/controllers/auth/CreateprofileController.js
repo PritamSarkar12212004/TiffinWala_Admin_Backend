@@ -14,7 +14,6 @@ const CreateprofileController = async (req, res) => {
   ) {
     return res.status(400).json({ message: "All fields are required" });
   } else {
-    // console.log(Description, Name, email, location, profileImage, phone);
     const createProfile = await adminModel
       .create({
         User_Name: Name,
@@ -26,7 +25,6 @@ const CreateprofileController = async (req, res) => {
         User_Gender: gender,
       })
       .then((result) => {
-        console.log(result);
         return res.status(201).json({
           message: "Profile created successfully",
           data: result,

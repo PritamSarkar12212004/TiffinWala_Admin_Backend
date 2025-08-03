@@ -18,6 +18,13 @@ const adminSchema = mongoose.Schema({
   User_Bio: {
     type: String,
   },
+  User_Post_Count: [
+    {
+      PostId: {
+        type: String,
+      },
+    },
+  ],
   User_Address: {
     type: {},
   },

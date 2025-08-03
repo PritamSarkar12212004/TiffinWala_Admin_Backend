@@ -10,7 +10,7 @@ const AuthProvideDataController = async (req, res) => {
       data: findData,
     });
   } else {
-    res.status(201).json({
+    res.status(200).json({
       user: false,
       login: false,
       data: null,

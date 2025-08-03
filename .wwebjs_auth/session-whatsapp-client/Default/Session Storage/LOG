@@ -1,3 +1,2 @@
-2025/07/23-18:48:55.638 2b14 Reusing MANIFEST C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\Session Storage/MANIFEST-000001
-2025/07/23-18:48:55.649 2b14 Recovering log #3
-2025/07/23-18:48:55.650 2b14 Reusing old log C:\Users\Pritam\Desktop\TiffinWalaAdmin_backend\.wwebjs_auth\session-whatsapp-client\Default\Session Storage/000003.log 
+2025/08/03-09:53:13.024 186b Creating DB /home/pritam-sarkar/Desktop/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/Session Storage since it was missing.
+2025/08/03-09:53:13.028 186b Reusing MANIFEST /home/pritam-sarkar/Desktop/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/Session Storage/MANIFEST-000001

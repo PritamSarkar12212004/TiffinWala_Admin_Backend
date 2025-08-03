@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const postSchema = new mongoose.Schema({
+const ProductModel = new mongoose.Schema({
   postTitle: {
     type: String,
     required: [true, "Post title is required"],
@@ -87,8 +87,8 @@ const postSchema = new mongoose.Schema({
   },
 });
 
-postSchema.index({ location: "2dsphere" });
+ProductModel.index({ location: "2dsphere" });
 
-const Post = mongoose.model("Post", postSchema);
+const Post = mongoose.model("Post", ProductModel);
 
-export default Post;
+export default ProductModel;
