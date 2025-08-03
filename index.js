@@ -8,6 +8,7 @@ import AuthRoute from "./src/routes/AuthRoute.js";
 import DataProviderRoute from "./src/routes/DataProviderRoute.js";
 import whatsappConnect from "./src/services/whatsapp/whatsappConnect.js";
 import connectDB from "./src/database/DataBase.js";
+import ProductRoute from "./src/routes/ProductRoute.js";
 const app = express();
 
 // middleware
@@ -21,6 +22,7 @@ app.use(
 
 app.use("/auth", AuthRoute);
 app.use("/data-provider", DataProviderRoute);
+app.use("/product", ProductRoute);
 
 //  connect mongo db
 connectDB().then(async (res) => {
@@ -28,6 +30,7 @@ connectDB().then(async (res) => {
   await whatsappConnect();
   //server
 });
+
 const port = 3000;
 app.listen(port, () => {
   console.log(`server Start at Port  ${port}`);

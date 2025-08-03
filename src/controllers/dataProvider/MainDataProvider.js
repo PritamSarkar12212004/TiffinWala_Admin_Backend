@@ -7,16 +7,16 @@ const MainDataProvider = async (req, res) => {
       res.status(200).json({
         success: true,
         message: "Data Fetch successFull",
-        data: findData,
-      });
-    } else {
+        data: findData,    
+      });  
+    } else {     
       res.status(404).json({
         success: false,
         message: "User Not Found Frist Cerate the User",
         data: null,
       });
     }
-  } catch (error) {
+  } catch (error) { 
     console.log(error);
     return res.status(500).json({
       success: false,
