@@ -25,13 +25,20 @@ app.use("/data-provider", DataProviderRoute);
 app.use("/product", ProductRoute);
 
 //  connect mongo db
-connectDB().then(async (res) => {
-  // connect whatsappc Tool bots
-  await whatsappConnect();
-  //server
-});
-
-const port = 3000;
-app.listen(port, () => {
-  console.log(`server Start at Port  ${port}`);
-});
+connectDB()
+  .then(async (res) => {
+    // connect whatsappc Tool bots
+    await whatsappConnect()
+      .then((res) => {
+        const port = 3000;
+        app.listen(port, () => {
+          console.log(`server Start at Port  ${port}`);
+        });
+      })
+      .catch((err) => {
+        console.log(`Whatsapp Connection Failed Due to ` + err);
+      });
+  })
+  .catch((err) => {
+    console.log(`DataBase Connection Faild Due to ` + err);
+  });

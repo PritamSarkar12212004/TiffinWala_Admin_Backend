@@ -1,23 +1,25 @@
-2025/08/06-20:54:28.773 bfdb Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/06-20:54:28.773 bfdb Recovering log #487
-2025/08/06-20:54:28.792 bfdb Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000487.log 
-2025/08/06-20:54:35.423 c006 Level-0 table #497: started
-2025/08/06-20:54:35.427 c006 Level-0 table #497: 365390 bytes OK
-2025/08/06-20:54:35.428 c006 Delete type=0 #487
-2025/08/06-20:54:35.428 c006 Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/06-20:54:36.753 c006 Compacting 1@1 + 6@2 files
-2025/08/06-20:54:36.823 c006 Generated table #498@1: 85066 keys, 2244634 bytes
-2025/08/06-20:54:36.864 c006 Generated table #499@1: 37231 keys, 2196086 bytes
-2025/08/06-20:54:36.880 c006 Generated table #500@1: 2979 keys, 2158416 bytes
-2025/08/06-20:54:36.929 c006 Generated table #501@1: 27609 keys, 2228470 bytes
-2025/08/06-20:54:36.965 c006 Generated table #502@1: 53429 keys, 2200039 bytes
-2025/08/06-20:54:36.991 c006 Generated table #503@1: 61945 keys, 1422168 bytes
-2025/08/06-20:54:36.991 c006 Compacted 1@1 + 6@2 files => 12449813 bytes
-2025/08/06-20:54:36.992 c006 compacted to: files[ 0 0 6 0 0 0 0 ]
-2025/08/06-20:54:36.993 c006 Delete type=2 #497
-2025/08/06-20:54:36.993 c006 Delete type=2 #492
-2025/08/06-20:54:36.993 c006 Delete type=2 #489
-2025/08/06-20:54:36.993 c006 Delete type=2 #493
-2025/08/06-20:54:36.993 c006 Delete type=2 #491
-2025/08/06-20:54:36.993 c006 Delete type=2 #494
-2025/08/06-20:54:36.993 c006 Delete type=2 #490
+2025/08/08-15:08:04.844 14410 Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/08-15:08:04.844 14410 Recovering log #932
+2025/08/08-15:08:04.863 14410 Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000932.log 
+2025/08/08-15:08:06.380 143fe Level-0 table #943: started
+2025/08/08-15:08:06.384 143fe Level-0 table #943: 392302 bytes OK
+2025/08/08-15:08:06.386 143fe Delete type=0 #932
+2025/08/08-15:08:06.386 143fe Manual compaction at level-0 from '\x00X\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Y\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/08-15:08:07.736 1440e Compacting 1@1 + 7@2 files
+2025/08/08-15:08:07.783 1440e Generated table #944@1: 89745 keys, 2241442 bytes
+2025/08/08-15:08:07.824 1440e Generated table #945@1: 74619 keys, 2240729 bytes
+2025/08/08-15:08:07.861 1440e Generated table #946@1: 23650 keys, 2180174 bytes
+2025/08/08-15:08:07.885 1440e Generated table #947@1: 5821 keys, 2161300 bytes
+2025/08/08-15:08:07.917 1440e Generated table #948@1: 32054 keys, 2238908 bytes
+2025/08/08-15:08:07.944 1440e Generated table #949@1: 51334 keys, 2189033 bytes
+2025/08/08-15:08:07.970 1440e Generated table #950@1: 61136 keys, 1420150 bytes
+2025/08/08-15:08:07.970 1440e Compacted 1@1 + 7@2 files => 14671736 bytes
+2025/08/08-15:08:07.973 1440e compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/08/08-15:08:07.973 1440e Delete type=2 #939
+2025/08/08-15:08:07.973 1440e Delete type=2 #937
+2025/08/08-15:08:07.973 1440e Delete type=2 #936
+2025/08/08-15:08:07.973 1440e Delete type=2 #943
+2025/08/08-15:08:07.973 1440e Delete type=2 #940
+2025/08/08-15:08:07.973 1440e Delete type=2 #935
+2025/08/08-15:08:07.973 1440e Delete type=2 #938
+2025/08/08-15:08:07.973 1440e Delete type=2 #934
