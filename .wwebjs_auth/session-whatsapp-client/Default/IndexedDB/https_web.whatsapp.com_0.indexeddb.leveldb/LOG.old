@@ -1,2 +1,27 @@
-2025/08/09-13:48:40.161 b2af Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/09-13:48:40.161 b2af Recovering log #1156
+2025/08/09-19:01:51.947 7287 Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/09-19:01:51.948 7287 Recovering log #1251
+2025/08/09-19:01:51.969 7287 Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001251.log 
+2025/08/09-19:01:53.501 7288 Level-0 table #1263: started
+2025/08/09-19:01:53.507 7288 Level-0 table #1263: 413988 bytes OK
+2025/08/09-19:01:53.509 7288 Delete type=0 #1251
+2025/08/09-19:01:53.509 7288 Manual compaction at level-0 from '\x00r\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00s\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/09-19:01:54.835 728a Compacting 1@1 + 8@2 files
+2025/08/09-19:01:54.879 728a Generated table #1264@1: 88336 keys, 2240161 bytes
+2025/08/09-19:01:54.939 728a Generated table #1265@1: 100283 keys, 2252401 bytes
+2025/08/09-19:01:54.992 728a Generated table #1266@1: 50257 keys, 2229653 bytes
+2025/08/09-19:01:55.012 728a Generated table #1267@1: 2040 keys, 2145333 bytes
+2025/08/09-19:01:55.039 728a Generated table #1268@1: 14098 keys, 2197310 bytes
+2025/08/09-19:01:55.081 728a Generated table #1269@1: 26083 keys, 2200425 bytes
+2025/08/09-19:01:55.137 728a Generated table #1270@1: 66552 keys, 2207030 bytes
+2025/08/09-19:01:55.169 728a Generated table #1271@1: 46346 keys, 1082428 bytes
+2025/08/09-19:01:55.169 728a Compacted 1@1 + 8@2 files => 16554741 bytes
+2025/08/09-19:01:55.170 728a compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/08/09-19:01:55.170 728a Delete type=2 #1259
+2025/08/09-19:01:55.170 728a Delete type=2 #1257
+2025/08/09-19:01:55.170 728a Delete type=2 #1260
+2025/08/09-19:01:55.171 728a Delete type=2 #1258
+2025/08/09-19:01:55.171 728a Delete type=2 #1256
+2025/08/09-19:01:55.171 728a Delete type=2 #1255
+2025/08/09-19:01:55.171 728a Delete type=2 #1253
+2025/08/09-19:01:55.171 728a Delete type=2 #1254
+2025/08/09-19:01:55.171 728a Delete type=2 #1263

@@ -47,7 +47,7 @@ const adminSchema = new mongoose.Schema({
         default: true,
       },
       ShowLocation: {
-        type: Boolean,
+        type: Boolean,  
         default: true,
       },
     },
