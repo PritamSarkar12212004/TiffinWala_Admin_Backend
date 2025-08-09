@@ -9,6 +9,7 @@ import DataProviderRoute from "./src/routes/DataProviderRoute.js";
 import whatsappConnect from "./src/services/whatsapp/whatsappConnect.js";
 import connectDB from "./src/database/DataBase.js";
 import ProductRoute from "./src/routes/ProductRoute.js";
+import OptionsRoute from "./src/routes/OptionsRoute.js";
 const app = express();
 
 // middleware
@@ -23,6 +24,7 @@ app.use(
 app.use("/auth", AuthRoute);
 app.use("/data-provider", DataProviderRoute);
 app.use("/product", ProductRoute);
+app.use("/option", OptionsRoute);
 
 //  connect mongo db
 connectDB()

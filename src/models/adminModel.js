@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-const adminSchema = mongoose.Schema({
+
+const adminSchema = new mongoose.Schema({
   User_Name: {
     type: String,
   },
@@ -26,7 +27,7 @@ const adminSchema = mongoose.Schema({
     },
   ],
   User_Address: {
-    type: {},
+    type: Object,
   },
   token: {
     type: String,
@@ -39,6 +40,42 @@ const adminSchema = mongoose.Schema({
       },
     },
   ],
+  UserPrivacyOptions: {
+    Profile: {
+      ShowEmail: {
+        type: Boolean,
+        default: true,
+      },
+      ShowLocation: {
+        type: Boolean,
+        default: true,
+      },
+    },
+    Notification: {
+      AllowPushNotifications: {
+        type: Boolean,
+        default: true,
+      },
+      AllowMarketing: {
+        type: Boolean,
+        default: true,
+      },
+    },
+    DataAnalytics: {
+      KeepHistory: {
+        type: Boolean,
+        default: true,
+      },
+      AllowDataSharing: {
+        type: Boolean,
+        default: true,
+      },
+      AnalyticData: {
+        type: Boolean,
+        default: true,
+      },
+    },
+  },
   User_Created_At: {
     type: Date,
     default: Date.now,

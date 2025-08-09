@@ -1,25 +1,2 @@
-2025/08/08-15:02:32.047 13ad0 Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/08-15:02:32.048 13ad0 Recovering log #922
-2025/08/08-15:02:32.053 13ad0 Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000922.log 
-2025/08/08-15:02:33.612 13acd Level-0 table #933: started
-2025/08/08-15:02:33.614 13acd Level-0 table #933: 77182 bytes OK
-2025/08/08-15:02:33.615 13acd Delete type=0 #922
-2025/08/08-15:02:33.616 13acb Manual compaction at level-0 from '\x00W\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00X\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/08-15:02:35.030 13acd Compacting 1@1 + 7@2 files
-2025/08/08-15:02:35.084 13acd Generated table #934@1: 89716 keys, 2242062 bytes
-2025/08/08-15:02:35.142 13acd Generated table #935@1: 73887 keys, 2241243 bytes
-2025/08/08-15:02:35.171 13acd Generated table #936@1: 22265 keys, 2178369 bytes
-2025/08/08-15:02:35.198 13acd Generated table #937@1: 6665 keys, 2161333 bytes
-2025/08/08-15:02:35.253 13acd Generated table #938@1: 31169 keys, 2235975 bytes
-2025/08/08-15:02:35.302 13acd Generated table #939@1: 53410 keys, 2191890 bytes
-2025/08/08-15:02:35.335 13acd Generated table #940@1: 59028 keys, 1371370 bytes
-2025/08/08-15:02:35.335 13acd Compacted 1@1 + 7@2 files => 14622242 bytes
-2025/08/08-15:02:35.337 13acd compacted to: files[ 0 0 7 0 0 0 0 ]
-2025/08/08-15:02:35.337 13acd Delete type=2 #933
-2025/08/08-15:02:35.337 13acd Delete type=2 #924
-2025/08/08-15:02:35.337 13acd Delete type=2 #926
-2025/08/08-15:02:35.337 13acd Delete type=2 #929
-2025/08/08-15:02:35.337 13acd Delete type=2 #925
-2025/08/08-15:02:35.337 13acd Delete type=2 #930
-2025/08/08-15:02:35.337 13acd Delete type=2 #927
-2025/08/08-15:02:35.337 13acd Delete type=2 #928
+2025/08/09-13:48:40.161 b2af Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/09-13:48:40.161 b2af Recovering log #1156
