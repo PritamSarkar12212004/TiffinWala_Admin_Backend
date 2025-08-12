@@ -1,27 +1,39 @@
-2025/08/10-11:53:49.211 3d24 Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/10-11:53:49.211 3d24 Recovering log #1512
-2025/08/10-11:53:49.234 3d24 Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001512.log 
-2025/08/10-11:53:50.730 3d21 Level-0 table #1524: started
-2025/08/10-11:53:50.735 3d21 Level-0 table #1524: 380817 bytes OK
-2025/08/10-11:53:50.737 3d21 Delete type=0 #1512
-2025/08/10-11:53:50.737 3d21 Manual compaction at level-0 from '\x00\x87\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x88\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/10-11:53:52.156 3d21 Compacting 1@1 + 8@2 files
-2025/08/10-11:53:52.202 3d21 Generated table #1525@1: 88603 keys, 2239427 bytes
-2025/08/10-11:53:52.258 3d21 Generated table #1526@1: 99128 keys, 2252471 bytes
-2025/08/10-11:53:52.316 3d21 Generated table #1527@1: 70495 keys, 2242172 bytes
-2025/08/10-11:53:52.350 3d21 Generated table #1528@1: 18394 keys, 2169371 bytes
-2025/08/10-11:53:52.362 3d21 Generated table #1529@1: 2812 keys, 2152542 bytes
-2025/08/10-11:53:52.391 3d21 Generated table #1530@1: 31763 keys, 2237692 bytes
-2025/08/10-11:53:52.411 3d21 Generated table #1531@1: 25051 keys, 2161637 bytes
-2025/08/10-11:53:52.457 3d21 Generated table #1532@1: 94985 keys, 2198187 bytes
-2025/08/10-11:53:52.457 3d21 Compacted 1@1 + 8@2 files => 17653499 bytes
-2025/08/10-11:53:52.459 3d21 compacted to: files[ 0 0 8 0 0 0 0 ]
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1518
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1516
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1524
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1515
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1520
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1521
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1514
-2025/08/10-11:53:52.459 3d21 Delete type=2 #1519
-2025/08/10-11:53:52.460 3d21 Delete type=2 #1517
+2025/08/12-14:38:42.916 18ff Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/12-14:38:42.916 18ff Recovering log #1630
+2025/08/12-14:38:42.923 18ff Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWalaAdmin_backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001630.log 
+2025/08/12-14:38:42.923 18ff Delete type=2 #1626
+2025/08/12-14:38:42.923 18ff Delete type=2 #1621
+2025/08/12-14:38:42.923 18ff Delete type=2 #1631
+2025/08/12-14:38:42.923 18ff Delete type=2 #1627
+2025/08/12-14:38:42.923 18ff Delete type=2 #1629
+2025/08/12-14:38:42.923 18ff Delete type=2 #1623
+2025/08/12-14:38:42.923 18ff Delete type=2 #1624
+2025/08/12-14:38:42.923 18ff Delete type=2 #1628
+2025/08/12-14:38:42.923 18ff Delete type=2 #1625
+2025/08/12-14:38:42.923 18ff Delete type=2 #1622
+2025/08/12-14:38:44.620 1953 Level-0 table #1643: started
+2025/08/12-14:38:44.624 1953 Level-0 table #1643: 247312 bytes OK
+2025/08/12-14:38:44.626 1953 Delete type=0 #1630
+2025/08/12-14:38:44.626 1953 Manual compaction at level-0 from '\x00\x8a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x8b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/12-14:38:46.228 18fe Compacting 1@1 + 9@2 files
+2025/08/12-14:38:46.288 18fe Generated table #1644@1: 84684 keys, 2233713 bytes
+2025/08/12-14:38:46.390 18fe Generated table #1645@1: 98303 keys, 2249718 bytes
+2025/08/12-14:38:46.471 18fe Generated table #1646@1: 77355 keys, 2247086 bytes
+2025/08/12-14:38:46.507 18fe Generated table #1647@1: 31735 keys, 2186841 bytes
+2025/08/12-14:38:46.540 18fe Generated table #1648@1: 2783 keys, 2153464 bytes
+2025/08/12-14:38:46.582 18fe Generated table #1649@1: 21850 keys, 2228559 bytes
+2025/08/12-14:38:46.640 18fe Generated table #1650@1: 19947 keys, 2160941 bytes
+2025/08/12-14:38:46.725 18fe Generated table #1651@1: 74379 keys, 2217162 bytes
+2025/08/12-14:38:46.772 18fe Generated table #1652@1: 43754 keys, 1033214 bytes
+2025/08/12-14:38:46.772 18fe Compacted 1@1 + 9@2 files => 18710698 bytes
+2025/08/12-14:38:46.774 18fe compacted to: files[ 0 0 9 0 0 0 0 ]
+2025/08/12-14:38:46.775 18fe Delete type=2 #1639
+2025/08/12-14:38:46.775 18fe Delete type=2 #1636
+2025/08/12-14:38:46.775 18fe Delete type=2 #1637
+2025/08/12-14:38:46.775 18fe Delete type=2 #1643
+2025/08/12-14:38:46.775 18fe Delete type=2 #1633
+2025/08/12-14:38:46.775 18fe Delete type=2 #1634
+2025/08/12-14:38:46.775 18fe Delete type=2 #1632
+2025/08/12-14:38:46.775 18fe Delete type=2 #1635
+2025/08/12-14:38:46.775 18fe Delete type=2 #1640
+2025/08/12-14:38:46.775 18fe Delete type=2 #1638
