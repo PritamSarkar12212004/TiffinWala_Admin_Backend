@@ -26,6 +26,20 @@ const adminSchema = new mongoose.Schema({
       },
     },
   ],
+
+  WeeklyTraffic: [
+    {
+      weekStart: { type: Date },
+      count: { type: Number, default: 0 },
+    },
+  ],
+  MonthlyTraffic: [
+    {
+      monthStart: { type: Date },
+      count: { type: Number, default: 0 },
+    },
+  ],
+
   User_Address: {
     type: Object,
   },
@@ -47,7 +61,7 @@ const adminSchema = new mongoose.Schema({
         default: true,
       },
       ShowLocation: {
-        type: Boolean,  
+        type: Boolean,
         default: true,
       },
     },

@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 const NotificationSchema = mongoose.Schema({
   title: {
     type: String,
@@ -26,6 +27,7 @@ const NotificationSchema = mongoose.Schema({
   date: {
     type: Date,
     default: Date.now,
+    expires: 60 * 60 * 24 * 3,
   },
 });
 
