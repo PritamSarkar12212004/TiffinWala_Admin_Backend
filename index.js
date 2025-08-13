@@ -11,6 +11,7 @@ import connectDB from "./src/database/DataBase.js";
 import ProductRoute from "./src/routes/ProductRoute.js";
 import OptionsRoute from "./src/routes/OptionsRoute.js";
 import NotificationRoute from "./src/routes/NotificationRoute.js";
+import FollowerRoute from "./src/routes/FollowerRoute.js";
 const app = express();
 
 // middleware
@@ -27,6 +28,7 @@ app.use("/data-provider", DataProviderRoute);
 app.use("/product", ProductRoute);
 app.use("/option", OptionsRoute);
 app.use("/notification", NotificationRoute);
+app.use("/follower", FollowerRoute);
 
 //  connect mongo db
 connectDB()

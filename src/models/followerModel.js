@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 const followerSchema = mongoose.Schema({
   followerId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+    type: String,
     required: true,
   },
   followerLocation: {
@@ -16,13 +15,12 @@ const followerSchema = mongoose.Schema({
       default: undefined,
     },
   },
-  followerLocation: {
+  followerLocationName: {
     type: String,
-    required: [true, "Post location is required"],
+    required: [true, "Follower location name is required"],
   },
   followingId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+    type: String,
     required: true,
   },
   createdAt: {
@@ -31,6 +29,6 @@ const followerSchema = mongoose.Schema({
   },
 });
 
-followerSchema.index({ location: "2dsphere" });
-const followerModel = mongoose.model("Post", followerSchema);
+followerSchema.index({ followerLocation: "2dsphere" });
+const followerModel = mongoose.model("follower", followerSchema);
 export default followerModel;
