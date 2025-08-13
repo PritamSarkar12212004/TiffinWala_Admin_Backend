@@ -1,3 +1,6 @@
-2025/08/13-13:40:23.759 11c88 Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/Local Storage/leveldb/MANIFEST-000001
-2025/08/13-13:40:23.759 11c88 Recovering log #65
-2025/08/13-13:40:23.759 11c88 Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/Local Storage/leveldb/000065.log 
+2025/08/13-13:59:38.829 13d1b Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/Local Storage/leveldb/MANIFEST-000001
+2025/08/13-13:59:38.829 13d1b Recovering log #68
+2025/08/13-13:59:38.829 13d1b Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/Local Storage/leveldb/000068.log 
+2025/08/13-14:00:39.369 13d4e Level-0 table #72: started
+2025/08/13-14:00:39.373 13d4e Level-0 table #72: 14197 bytes OK
+2025/08/13-14:00:39.375 13d4e Delete type=0 #68

@@ -19,6 +19,7 @@ const MainDataProvider = async (req, res) => {
       data: result.findData,
       productData: result.productPayload,
       ProduatTotoalData: result.productData,
+      followerList: result.followerList,
     });
   } catch (error) {
     console.error(error);

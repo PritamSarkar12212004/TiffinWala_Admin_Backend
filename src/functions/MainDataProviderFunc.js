@@ -1,4 +1,5 @@
 import adminModel from "../models/adminModel.js";
+import followerModel from "../models/followerModel.js";
 import ProductModel from "../models/productModel.js";
 const MainDataProviderFunc = async (phone) => {
   const findData = await adminModel.findOne({ User_Phone_Number: phone });
@@ -30,13 +31,16 @@ const MainDataProviderFunc = async (phone) => {
       (sum, product) => sum + (product.postTotalViews || 0),
       0
     );
-
+    const followerList = await followerModel.find({
+      followingId: findData._id,
+    });
     const productPayload = {
       ProductTotalLike: totalLikesCount,
       ProductTotalViews: totalViewsCount,
       productData: productData.length > 0 ? productData : null,
       AdminFollowers: AdminFollowers,
       AdminProducts: AdminProducts,
+      followerList: followerList,
     };
     return {
       findData,

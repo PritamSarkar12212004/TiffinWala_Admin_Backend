@@ -1,9 +1,29 @@
-2025/08/13-13:40:24.127 11c88 Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/13-13:40:24.127 11c88 Recovering log #1846
-2025/08/13-13:40:24.148 11c88 Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001846.log 
-2025/08/13-13:40:25.782 11cba Level-0 table #1859: started
-2025/08/13-13:40:25.790 11cba Level-0 table #1859: 392558 bytes OK
-2025/08/13-13:40:25.792 11cba Delete type=0 #1846
-2025/08/13-13:40:25.792 11cba Manual compaction at level-0 from '\x00\x9d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x9e\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/08/13-13:40:27.101 11c86 Compacting 1@1 + 9@2 files
-2025/08/13-13:40:27.146 11c86 Generated table #1860@1: 89356 keys, 2240904 bytes
+2025/08/13-13:59:39.203 13d2b Reusing MANIFEST /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/13-13:59:39.204 13d2b Recovering log #1966
+2025/08/13-13:59:39.230 13d2b Reusing old log /home/pritam-sarkar/Desktop/Programs/TiffinWala_Admin_Backend/.wwebjs_auth/session-whatsapp-client/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001966.log 
+2025/08/13-13:59:40.834 13d1f Level-0 table #1979: started
+2025/08/13-13:59:40.841 13d1f Level-0 table #1979: 462418 bytes OK
+2025/08/13-13:59:40.843 13d1f Delete type=0 #1966
+2025/08/13-13:59:40.843 13d1f Manual compaction at level-0 from '\x00\xa7\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xa8\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/13-13:59:42.173 13d1a Compacting 1@1 + 9@2 files
+2025/08/13-13:59:42.220 13d1a Generated table #1980@1: 88947 keys, 2241424 bytes
+2025/08/13-13:59:42.262 13d1a Generated table #1981@1: 96938 keys, 2250243 bytes
+2025/08/13-13:59:42.317 13d1a Generated table #1982@1: 101588 keys, 2254933 bytes
+2025/08/13-13:59:42.372 13d1a Generated table #1983@1: 56360 keys, 2236102 bytes
+2025/08/13-13:59:42.393 13d1a Generated table #1984@1: 4936 keys, 2151309 bytes
+2025/08/13-13:59:42.412 13d1a Generated table #1985@1: 10609 keys, 2178697 bytes
+2025/08/13-13:59:42.441 13d1a Generated table #1986@1: 29637 keys, 2223391 bytes
+2025/08/13-13:59:42.461 13d1a Generated table #1987@1: 28813 keys, 2156646 bytes
+2025/08/13-13:59:42.531 13d1a Generated table #1988@1: 92518 keys, 2155834 bytes
+2025/08/13-13:59:42.532 13d1a Compacted 1@1 + 9@2 files => 19848579 bytes
+2025/08/13-13:59:42.533 13d1a compacted to: files[ 0 0 9 0 0 0 0 ]
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1975
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1974
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1972
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1968
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1969
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1976
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1973
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1971
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1970
+2025/08/13-13:59:42.534 13d1a Delete type=2 #1979
